@@ -1,0 +1,31 @@
+#root {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.counter{
+  background-color: #fff;
+  width: 500px;
+  padding: 20px;
+  height: 200px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  color: #333;
+}
+.value{
+  font-size: 50px;
+  font-weight: bold;
+}
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  padding:20px;
+}
+.buttons button{
+  background-color: #242424;
+  color: #ffd;
+  font-weight: 500;
+  font-size: 20px;
+}
