@@ -1,0 +1,8 @@
+{
+  "public": "public",
+  "rewrites": [
+    { "source": "/project-one", "destination": "/project-one/index.html" },
+    { "source": "/project-two", "destination": "/project-two/index.html" },
+    { "source": "/project-three", "destination": "/project-two/index.html" }
+  ]
+}
